@@ -1,0 +1,22 @@
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+    background-color: lightblue;
+    color: darkblue;
+    border: 1px solid darkblue;
+    border-radius: 8px;
+    outline: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
